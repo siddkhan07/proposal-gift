@@ -1,0 +1,15 @@
+function openGift() {
+    document.getElementById("proposal").classList.remove("hidden");
+    document.getElementById("bgMusic").play();
+}
+
+function yes() {
+    document.getElementById("result").innerHTML = "?? Yay! I Love You ??";
+}
+
+function moveNo() {
+    let btn = document.getElementById("noBtn");
+    btn.style.position = "absolute";
+    btn.style.left = Math.random() * 80 + "%";
+    btn.style.top = Math.random() * 80 + "%";
+}
