@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Proposal ❤️</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Love ❤️</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <h1>🎁 A Special Gift For You 🎁</h1>
-
-    <div class="gift" onclick="openGift()">
-        🎁 Click To Open
+    <div id="gift" class="gift" onclick="openGift()">
+        🎁
+        <p>Click To Open</p>
     </div>
 
     <div id="proposal" class="hidden">
+        <h2 id="typing"></h2>
 
-        <h2>❤️ Will You Be Mine Forever? ❤️</h2>
-
-        <p>
-            From the moment I met you,<br>
-            my heart chose you 💕
-        </p>
-
-        <!-- Direct Link Button -->
-        <button onclick="openLink()">
-            💌 Open My Special Surprise
-        </button>
+        <button onclick="openLink()">💌 Open My Special Surprise</button>
 
         <div class="buttons">
             <button onclick="yesClick()">YES 😍</button>
@@ -35,10 +26,11 @@
         </div>
 
         <h3 id="result"></h3>
-
     </div>
 
 </div>
+
+<audio id="bgMusic" src="music.mp3"></audio>
 
 <script src="script.js"></script>
 </body>
