@@ -1,16 +1,23 @@
 function openGift() {
-    document.querySelector(".gift").style.display = "none";
     document.getElementById("proposal").classList.remove("hidden");
 }
 
-function yes() {
-    document.getElementById("result").innerHTML =
-        "?? Yaaay! I knew it! I love you forever ????";
+function yesClick() {
+    document.getElementById("result").innerHTML = "Yay ❤️ I Love You Forever!";
+    
+    // Auto open your second website
+    window.open("https://siddkhan07.github.io/Huzaifiii/", "_blank");
 }
 
 function moveNo() {
-    const btn = document.getElementById("noBtn");
-    const x = Math.random() * 200 - 100;
-    const y = Math.random() * 200 - 100;
-    btn.style.transform = `translate(${x}px, ${y}px)`;
+    const button = document.getElementById("noBtn");
+    const x = Math.random() * 300;
+    const y = Math.random() * 300;
+    button.style.position = "absolute";
+    button.style.left = x + "px";
+    button.style.top = y + "px";
+}
+
+function openLink() {
+    window.open("https://siddkhan07.github.io/Huzaifii/", "_blank");
 }
