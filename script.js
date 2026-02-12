@@ -19,7 +19,7 @@ function typeWriter() {
 
 function yesClick() {
     document.getElementById("result").innerHTML = "Yay ❤️ I Love You Forever!";
-    window.open("https://siddkhan07.github.io/Huzaifii/", "_blank");
+    window.open("https://siddkhan07.github.io/Huzaifiii/", "_blank");
 }
 
 function moveNo() {
@@ -59,3 +59,4 @@ style.innerHTML = `
     100% { transform: translateY(-100vh); opacity: 0; }
 }`;
 document.head.appendChild(style);
+
