@@ -1,55 +1,35 @@
 body {
     margin: 0;
-    height: 100vh;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Arial', sans-serif;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    text-align: center;
+    color: white;
 }
 
 .container {
-    background: white;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
+    margin-top: 100px;
 }
 
 .gift {
-    font-size: 90px;
+    font-size: 30px;
     cursor: pointer;
-    animation: bounce 1.5s infinite;
-}
-
-@keyframes bounce {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    margin: 20px;
 }
 
 .hidden {
     display: none;
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
 button {
     padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
     margin: 10px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 
-button:first-child {
-    background: #ff416c;
-    color: white;
-}
-
-#noBtn {
-    background: #ccc;
+.buttons {
+    margin-top: 20px;
 }
