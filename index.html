@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Love ❤️</title>
+<title>Huzaifiii ❤️</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <div id="gift" class="gift" onclick="openGift()">
-        🎁
-        <p>Click To Open</p>
+    <div id="startScreen">
+        <h1>Huzaifiii ❤️</h1>
+        <button onclick="startLove()">Tap To Open 💖</button>
     </div>
 
     <div id="proposal" class="hidden">
         <h2 id="typing"></h2>
 
-        <button onclick="openLink()">💌 Open My Special Surprise</button>
-
         <div class="buttons">
             <button onclick="yesClick()">YES 😍</button>
-            <button id="noBtn" onmouseover="moveNo()">NO 🙈</button>
+            <button id="noBtn" ontouchstart="moveNo()">NO 😜</button>
         </div>
 
         <h3 id="result"></h3>
@@ -30,7 +28,7 @@
 
 </div>
 
-<audio id="bgMusic" src="music.mp3"></audio>
+<audio id="music" src="music.mp3"></audio>
 
 <script src="script.js"></script>
 </body>
