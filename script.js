@@ -1,4 +1,4 @@
-let text = "Will You Be Mine Forever Huzaifiii ❤️";
+let text = "Will You Be Mine Forever golu molu 😘❤️";
 let i = 0;
 
 function startLove() {
@@ -60,3 +60,4 @@ style.innerHTML = `
     100% { transform: translateY(100vh); opacity:0; }
 }`;
 document.head.appendChild(style);
+
